@@ -1,0 +1,383 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>PMSS Wireframes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body >
+		 <!-- start preloader -->
+        <div id="loader-wrapper">
+            <div class="logo"></div>
+            <div id="loader">
+            </div>
+        </div>
+        <!-- end preloader -->
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		
+		
+<!-- Start Header Section -->
+		 <header class="main_menu_sec navbar navbar-default navbar-fixed-top">
+			 <div class="container">
+				 <div class="row">
+					 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+						 <div class="lft_hd">
+							 <a href="index.html"><img src="img/house.png" alt="" style="height:50px;width:50px;"/></a>
+						 </div>
+					 </div>
+					 <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+						 <div class="rgt_hd">
+							 <div class="main_menu">
+								 <nav id="nav_menu">
+									 <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+										 <span class="icon-bar"></span>
+										 <span class="icon-bar"></span>
+										 <span class="icon-bar"></span>
+									 </button>
+									 <div id="navbar">
+										 <ul>
+											 <li><a class="page-scroll" href="index.html">Home</a></li>
+											 <li><a href="#">Admin<i class="fa fa-angle-down"></i></a>
+												 <ul>
+													 <li><a class="page-scroll" href="users.html">Users</a></li>
+													 <li><a class="page-scroll" href="teams.html">Teams</a></li>
+													 <li><a class="page-scroll" href="teamaccess.html">Team Access</a></li>
+												 </ul>
+											 </li>
+											 <li><a class="page-scroll" href="login.html">Sign Out</a></li>
+										 </ul>
+									 </div>
+								 </nav>
+							 </div>
+
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </header>
+<!-- End Header Section -->
+
+<section id="slider_sec">
+	<div class="container">
+        <div class="row">
+            <div class="dashboard">
+                <h1>Development</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="dashboard">
+			<div id="exTab2">
+				<ul class="nav nav-tabs ">
+					<li class="active">
+						<a  href="#1" data-toggle="tab">Development Sourcing Step 1</a>
+					</li>
+					<li>
+						<a href="#2" data-toggle="tab">Development Sourcing Step 2</a>
+					</li>
+					<li>
+						<a href="#3" data-toggle="tab">Plot List</a>
+					</li>
+					<li>
+						<a href="#4" data-toggle="tab">Big 50</a>
+					</li>
+				</ul>
+
+				<div class="tab-content ">
+					<div class="tab-pane active" id="1">
+						<form style="padding-top: 20px">
+							<div class="form-group">
+								<label for="devName">Development Name</label>
+								<input type="text" class="form-control" id="devName" placeholder="Development Name">
+							</div>
+							<div class="form-group">
+								<label for="devAddress1">Address 1</label>
+								<input type="text" class="form-control" id="devAddress1" placeholder="Address Line 1">
+							</div>
+							<div class="form-group">
+								<label for="devAddress2">Address 2</label>
+								<input type="text" class="form-control" id="devAddress2" placeholder="Address Line 2">
+							</div>
+							<div class="form-group">
+								<label for="devTown">Town</label>
+								<input type="text" class="form-control" id="devTown" placeholder="Town">
+							</div>
+							<div class="form-group">
+								<label for="devCounty">County</label>
+								<input type="text" class="form-control" id="devCounty" placeholder="County">
+							</div>
+							<div class="form-group">
+								<label for="devStock">Select Stock:</label>
+								<select class="form-control" id="devStock">
+									<option>Stock</option>
+									<option>Off Plan</option>
+								</select>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="2">
+						<form style="padding-top: 20px">
+							<div class="form-group">
+								<label for="devSiteSold">Percentage of site sold to investors:</label>
+								<select class="form-control" id="devSiteSold">
+									<option>10</option>
+									<option>20</option>
+									<option>30</option>
+									<option>40</option>
+									<option>50</option>
+									<option>60</option>
+									<option>70</option>
+									<option>80</option>
+									<option>90</option>
+									<option>100</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="devNumberOfPlots">Number of Plots:</label>
+								<select class="form-control" id="devNumberOfPlots">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+									<option>6</option>
+									<option>7</option>
+									<option>8</option>
+									<option>9</option>
+									<option>10</option>
+									<option>11</option>
+									<option>12</option>
+									<option>13</option>
+									<option>14</option>
+									<option>15</option>
+									<option>16</option>
+									<option>17</option>
+									<option>18</option>
+									<option>19</option>
+									<option>20</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="devFieldLet">Is Field Let:</label>
+								<select class="form-control" id="devFieldLet">
+									<option>Yes1</option>
+									<option>No</option>
+									<option>Other</option>
+								</select>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="3">
+						<div class="row">
+							<table class="table">
+								<thead>
+								<tr>
+									<th>Plot Number</th>
+									<th>Postal Address</th>
+									<th>Block</th>
+									<th>Floor</th>
+									<th>No of Bedrooms</th>
+									<th>No of Bathrooms</th>
+									<th>Parking</th>
+									<th>Balcony</th>
+									<th>Service Charge</th>
+									<th>Tenanted</th>
+									<th>Floorplan</th>
+									<th>List Price</th>
+									<th>RMP Price</th>
+									<th>Discount</th>
+									<th>Rent</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>1</td>
+									<td>1 High Street, Manchester</td>
+									<td>4</td>
+									<td>2</td>
+									<td>3</td>
+									<td>1</td>
+									<td>Y</td>
+									<td>N</td>
+									<td>£2000</td>
+									<td>Y</td>
+									<td>Y</td>
+									<td>£150000</td>
+									<td>£140000</td>
+									<td>5%</td>
+									<td>£500</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>1 High Street, Manchester</td>
+									<td>4</td>
+									<td>1</td>
+									<td>1</td>
+									<td>1</td>
+									<td>N</td>
+									<td>N</td>
+									<td>£1500</td>
+									<td>Y</td>
+									<td>Y</td>
+									<td>£100000</td>
+									<td>£800000</td>
+									<td>20%</td>
+									<td>£300</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>1 High Street, Manchester</td>
+									<td>3</td>
+									<td>5</td>
+									<td>2</td>
+									<td>1</td>
+									<td>Y</td>
+									<td>Y</td>
+									<td>£2000</td>
+									<td>N</td>
+									<td>N</td>
+									<td>£150000</td>
+									<td>£140000</td>
+									<td>5%</td>
+									<td>£500</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>1 High Street, Manchester</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2</td>
+									<td>2</td>
+									<td>Y</td>
+									<td>Y</td>
+									<td>£2000</td>
+									<td>Y</td>
+									<td>Y</td>
+									<td>£200000</td>
+									<td>£150000</td>
+									<td>25%</td>
+									<td>£3000</td>
+								</tr>
+								<tr>
+									<td>5</td>
+									<td>1 High Street, Manchester</td>
+									<td>1</td>
+									<td>1</td>
+									<td>1</td>
+									<td>1</td>
+									<td>N</td>
+									<td>N</td>
+									<td>£1000</td>
+									<td>N</td>
+									<td>N</td>
+									<td>£70000</td>
+									<td>£70000</td>
+									<td>0%</td>
+									<td>£250</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="row">
+							<li><a href="plot.html"><i class="fa fa-plus-circle"></i>Add New Plot</a></li>
+						</div>
+					</div>
+					<div class="tab-pane" id="4">
+						<form style="padding-top: 20px">
+							<div class="form-group">
+								<label for="plotInvOverview">Investment Overview:</label>
+								<input type="text" class="form-control" id="plotInvOverview" placeholder="Enter plot overview">
+							</div>
+							<div class="form-group">
+								<label for="plotRobView">Rob's View:</label>
+								<input type="text" class="form-control" id="plotRobView" placeholder="Enter Rob's overview">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+        </div>
+	</div>
+		<br/>
+		<br/>
+		<br/>
+		<div class="row" style="color: red">
+			<div class="dashboard">
+				<ul>
+					<li>Requires DataApi with endpoint to return all data and save updates</li>
+					<li>Way too much data on development screen. Needs splitting out</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- start footer Section -->
+<footer id="ft_sec">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="ft">						
+					<ul>
+						<li><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li><a href=""><i class="fa fa-twitter"></i></a></li>
+						<li><a href=""><i class="fa fa-dribbble"></i></a></li>
+						<li><a href=""><i class="fa fa-rss"></i></a></li>
+						<li><a href=""><i class="fa fa-flickr"></i></a></li>
+						<li><a href=""><i class="fa fa-pinterest"></i></a></li>
+						<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+						<li><a href=""><i class="fa fa-skype"></i></a></li>
+						<li><a href=""><i class="fa fa-google"></i></a></li>
+					</ul>					
+				</div>
+				<ul class="copy_right">
+					<li>PMSS Wireframes</li>
+					<li>developed by UserUndefined</li>
+				</ul>
+			</div>	
+		</div>
+	</div>
+</footer>
+<!-- End footer Section -->
+
+<script src="js/vendor/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/scrolling-nav.js"></script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+        //Hide Overflow of Body on DOM Ready //
+        $("body").css("overflow", "hidden");
+	});
+</script>
+
+<script>
+    jQuery(document).ready(function( $ ) {
+    });
+</script>
+
+<script>
+	// Show Overflow of Body when Everything has Loaded
+	$(window).load(function(){
+		$("body").css("overflow", "visible");
+	});
+</script>
+
+</body>
+</html>

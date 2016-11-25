@@ -1,0 +1,257 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>PMSS Wireframes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body >
+		 <!-- start preloader -->
+        <div id="loader-wrapper">
+            <div class="logo"></div>
+            <div id="loader">
+            </div>
+        </div>
+        <!-- end preloader -->
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		
+		
+<!-- Start Header Section -->
+		 <header class="main_menu_sec navbar navbar-default navbar-fixed-top">
+			 <div class="container">
+				 <div class="row">
+					 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+						 <div class="lft_hd">
+							 <a href="index.html"><img src="img/house.png" alt="" style="height:50px;width:50px;"/></a>
+						 </div>
+					 </div>
+					 <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+						 <div class="rgt_hd">
+							 <div class="main_menu">
+								 <nav id="nav_menu">
+									 <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+										 <span class="icon-bar"></span>
+										 <span class="icon-bar"></span>
+										 <span class="icon-bar"></span>
+									 </button>
+									 <div id="navbar">
+										 <ul>
+											 <li><a class="page-scroll" href="index.html">Home</a></li>
+											 <li><a href="#">Admin<i class="fa fa-angle-down"></i></a>
+												 <ul>
+													 <li><a class="page-scroll" href="users.html">Users</a></li>
+													 <li><a class="page-scroll" href="teams.html">Teams</a></li>
+													 <li><a class="page-scroll" href="teamaccess.html">Team Access</a></li>
+												 </ul>
+											 </li>
+											 <li><a class="page-scroll" href="login.html">Sign Out</a></li>
+										 </ul>
+									 </div>
+								 </nav>
+							 </div>
+
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </header>
+<!-- End Header Section -->
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="dashboard">
+				<h1>Add New Plot</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="dashboard">
+				<h2>Development - Little House, Manchester</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="dashboard">
+				<form action="development.html" style="padding-top: 20px">
+					<div class="form-group">
+						<label for="plotAddress1">Address 1</label>
+						<input type="text" class="form-control" id="plotAddress1" placeholder="Address Line 1">
+					</div>
+					<div class="form-group">
+						<label for="plotAddress2">Address 2</label>
+						<input type="text" class="form-control" id="plotAddress2" placeholder="Address Line 2">
+					</div>
+					<div class="form-group">
+						<label for="plotTown">Town</label>
+						<input type="text" class="form-control" id="plotTown" placeholder="Town">
+					</div>
+					<div class="form-group">
+						<label for="plotCounty">County</label>
+						<input type="text" class="form-control" id="plotCounty" placeholder="County">
+					</div>
+					<div class="form-group">
+						<label for="plotPostcode">Postcode</label>
+						<input type="text" class="form-control" id="plotPostcode" placeholder="Postcode">
+					</div>
+					<div class="row">
+						<div class="col-xs-4">
+							<div class="form-group">
+								<label for="plotBlock">Block</label>
+								<input type="text" class="form-control" id="plotBlock" placeholder="Block">
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="form-group">
+								<label for="plotFloor">Floor</label>
+								<input type="text" class="form-control" id="plotFloor" placeholder="Floor">
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="form-group">
+								<label for="plotBedrooms">Bedrooms</label>
+								<input type="text" class="form-control" id="plotBedrooms" placeholder="Bedrooms">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4">
+							<div class="form-group">
+								<label for="plotBathrooms">Bathrooms</label>
+								<input type="text" class="form-control" id="plotBathrooms" placeholder="Bathrooms">
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="form-group">
+								<label for="plotParking">Parking</label>
+								<input type="text" class="form-control" id="plotParking" placeholder="Parking">
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="form-group">
+								<label for="plotTenanted">Tenanted</label>
+								<input type="text" class="form-control" id="plotTenanted" placeholder="Tenanted">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4">
+							<div class="form-group">
+								<label for="plotRent">Rent</label>
+								<input type="text" class="form-control" id="plotRent" placeholder="Rent">
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="form-group">
+								<label for="plotRmpPrice">RMP Price</label>
+								<input type="text" class="form-control" id="plotRmpPrice" placeholder="RMP Price">
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="form-group">
+								<label for="plotDiscount">Discount</label>
+								<input type="text" class="form-control" id="plotDiscount" placeholder="Discount">
+							</div>
+						</div>
+					</div>
+					<hr/>
+					<p>File Assets</p>
+					<ul>
+						<li>File Number One</li>
+						<li>File Number Two</li>
+						<li>File Number Three</li>
+					</ul>
+					<div style="position:relative;">
+						<a class='btn btn-primary' href='javascript:;'>
+							Upload File...
+							<input type="file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info").html($(this).val());'>
+						</a>
+						&nbsp;
+						<span class='label label-info' id="upload-file-info"></span>
+					</div>
+					<hr/>
+					<button type="submit" class="btn btn-primary btn-block">Save</button>
+				</form>
+			</div>
+			<br/>
+			<br/>
+			<br/>
+			<div class="row" style="color: red">
+				<div class="dashboard">
+					<ul>
+						<li>Requires DataApi with endpoint to return developments</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- start footer Section -->
+<footer id="ft_sec">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="ft">						
+					<ul>
+						<li><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li><a href=""><i class="fa fa-twitter"></i></a></li>
+						<li><a href=""><i class="fa fa-dribbble"></i></a></li>
+						<li><a href=""><i class="fa fa-rss"></i></a></li>
+						<li><a href=""><i class="fa fa-flickr"></i></a></li>
+						<li><a href=""><i class="fa fa-pinterest"></i></a></li>
+						<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+						<li><a href=""><i class="fa fa-skype"></i></a></li>
+						<li><a href=""><i class="fa fa-google"></i></a></li>
+					</ul>					
+				</div>
+				<ul class="copy_right">
+					<li>PMSS Wireframes</li>
+					<li>developed by UserUndefined</li>
+				</ul>
+			</div>	
+		</div>
+	</div>
+</footer>
+<!-- End footer Section -->
+
+<script src="js/vendor/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/scrolling-nav.js"></script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+        //Hide Overflow of Body on DOM Ready //
+        $("body").css("overflow", "hidden");
+	});
+</script>
+
+<script>
+    jQuery(document).ready(function( $ ) {
+    });
+</script>
+
+<script>
+	// Show Overflow of Body when Everything has Loaded
+	$(window).load(function(){
+		$("body").css("overflow", "visible");
+	});
+</script>
+
+</body>
+</html>
