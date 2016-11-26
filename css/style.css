@@ -95,6 +95,11 @@ transform : rotate(0deg);
 transform : rotate(360deg);
 }
 }
+#navbar ul li a:hover {
+	transition : all 0.4s 0s ease;
+	background : #0078BF;
+}
+/*
 #nav_menu ul {
 float : right;
 list-style : none outside none;
@@ -155,6 +160,7 @@ display : block;
 #nav_menu ul li a i {
 margin-left : 6px;
 }
+*/
 #src_sec {
 background-image : url("../img/slide_img.jpg");
 background-position : center center;

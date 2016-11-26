@@ -32,44 +32,33 @@
 		
 		
 <!-- Start Header Section -->
-		 <header class="main_menu_sec navbar navbar-default navbar-fixed-top">
+		 <nav class="main_menu_sec navbar navbar-default navbar-fixed-top">
 			 <div class="container">
-				 <div class="row">
-					 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-						 <div class="lft_hd">
-							 <a href="index.html"><img src="img/house.png" alt="" style="height:50px;width:50px;"/></a>
-						 </div>
-					 </div>
-					 <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
-						 <div class="rgt_hd">
-							 <div class="main_menu">
-								 <nav id="nav_menu">
-									 <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-										 <span class="icon-bar"></span>
-										 <span class="icon-bar"></span>
-										 <span class="icon-bar"></span>
-									 </button>
-									 <div id="navbar">
-										 <ul>
-											 <li><a class="page-scroll" href="index.html">Home</a></li>
-											 <li><a href="#">Admin<i class="fa fa-angle-down"></i></a>
-												 <ul>
-													 <li><a class="page-scroll" href="users.html">Users</a></li>
-													 <li><a class="page-scroll" href="teams.html">Teams</a></li>
-													 <li><a class="page-scroll" href="teamaccess.html">Team Access</a></li>
-												 </ul>
-											 </li>
-											 <li><a class="page-scroll" href="login.html">Sign Out</a></li>
-										 </ul>
-									 </div>
-								 </nav>
-							 </div>
-
-						 </div>
-					 </div>
+				 <div class="navbar-header">
+					 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						 <span class="sr-only">Toggle navigation</span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+					 </button>
+					 <a href="index.html"><img src="img/house.png" alt="" style="height:50px;width:50px;"/></a>
+				 </div>
+				 <div id="navbar" class="navbar-collapse collapse">
+					 <ul class="nav navbar-nav navbar-right">
+						 <li><a href="index.html">Home</a></li>
+						 <li class="dropdown">
+							 <a data-toggle="dropdown" class="dropdown-toggle" href="#">Admin <b class="caret"></b></a>
+							 <ul role="menu" class="dropdown-menu">
+								 <li><a class="page-scroll" href="users.html">Users</a></li>
+								 <li><a href="teams.html">Teams</a></li>
+								 <li><a href="teamaccess.html">Team Access</a></li>
+							 </ul>
+						 </li>
+						 <li><a class="page-scroll" href="login.html">Sign Out</a></li>
+					 </ul>
 				 </div>
 			 </div>
-		 </header>
+		 </nav>
 <!-- End Header Section -->
 
 <section id="slider_sec">
@@ -100,32 +89,88 @@
 				<div class="tab-content ">
 					<div class="tab-pane active" id="1">
 						<form style="padding-top: 20px">
-							<div class="form-group">
-								<label for="devName">Development Name</label>
-								<input type="text" class="form-control" id="devName" placeholder="Development Name">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="devName">Development Name</label>
+										<input type="text" class="form-control" id="devName" placeholder="Development Name">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="devBuild">Select Stock:</label>
+										<select class="form-control" id="devBuild">
+											<option>New Build</option>
+											<option>Conversion</option>
+											<option>Refurb</option>
+										</select>
+									</div>
+								</div>
 							</div>
-							<div class="form-group">
-								<label for="devAddress1">Address 1</label>
-								<input type="text" class="form-control" id="devAddress1" placeholder="Address Line 1">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="devAddress1">Address 1</label>
+										<input type="text" class="form-control" id="devAddress1" placeholder="Address Line 1">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="devStock">Select Stock:</label>
+										<select class="form-control" id="devStock">
+											<option>Stock</option>
+											<option>Off Plan</option>
+										</select>
+									</div>
+								</div>
 							</div>
-							<div class="form-group">
-								<label for="devAddress2">Address 2</label>
-								<input type="text" class="form-control" id="devAddress2" placeholder="Address Line 2">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="devAddress2">Address 2</label>
+										<input type="text" class="form-control" id="devAddress2" placeholder="Address Line 2">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="devCompletionDate">Expected Completion Date</label>
+										<input type="text" class="form-control" id="devCompletionDate" placeholder="Expected Completion Date">
+									</div>
+								</div>
 							</div>
-							<div class="form-group">
-								<label for="devTown">Town</label>
-								<input type="text" class="form-control" id="devTown" placeholder="Town">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="devTown">Town</label>
+										<input type="text" class="form-control" id="devTown" placeholder="Town">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="devSourcer">Sourcer</label>
+										<input type="text" class="form-control" id="devSourcer" placeholder="Sourcer">
+									</div>
+								</div>
 							</div>
-							<div class="form-group">
-								<label for="devCounty">County</label>
-								<input type="text" class="form-control" id="devCounty" placeholder="County">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="devCounty">County</label>
+										<input type="text" class="form-control" id="devCounty" placeholder="County">
+									</div>
+								</div>
+								<div class="col-sm-6">
+								</div>
 							</div>
-							<div class="form-group">
-								<label for="devStock">Select Stock:</label>
-								<select class="form-control" id="devStock">
-									<option>Stock</option>
-									<option>Off Plan</option>
-								</select>
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="devPostCode">Postcode</label>
+										<input type="text" class="form-control" id="devPostCode" placeholder="Postcode">
+									</div>
+								</div>
+								<div class="col-sm-6">
+								</div>
 							</div>
 						</form>
 					</div>
@@ -293,7 +338,7 @@
 							</table>
 						</div>
 						<div class="row">
-							<li><a href="plot.html"><i class="fa fa-plus-circle"></i>Add New Plot</a></li>
+							<a href="plot.html"><i class="fa fa-plus-circle"></i>Add New Plot</a>
 						</div>
 					</div>
 					<div class="tab-pane" id="4">
@@ -312,6 +357,20 @@
 			</div>
         </div>
 	</div>
+		<br/>
+		<div class="row">
+			<button type="submit" class="btn btn-primary btn-block">Save</button>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-xs-4">
+				<button type="submit" class="btn btn-primary btn-block">Submit Phase I For Review</button>
+			</div>
+			<div class="col-xs-4"></div>
+			<div class="col-xs-4">
+				<button type="submit" class="btn btn-primary btn-block">Submit Phase 2 For Review</button>
+			</div>
+		</div>
 		<br/>
 		<br/>
 		<br/>
@@ -377,6 +436,11 @@
 	$(window).load(function(){
 		$("body").css("overflow", "visible");
 	});
+</script>
+
+<script>
+ $( function() {
+ } );
 </script>
 
 </body>
