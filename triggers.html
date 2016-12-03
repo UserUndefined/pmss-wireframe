@@ -1,0 +1,335 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>PMSS Wireframes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body >
+		 <!-- start preloader -->
+        <div id="loader-wrapper">
+            <div class="logo"></div>
+            <div id="loader">
+            </div>
+        </div>
+        <!-- end preloader -->
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		
+		
+<!-- Start Header Section -->
+		 <nav class="main_menu_sec navbar navbar-default navbar-fixed-top">
+			 <div class="container">
+				 <div class="navbar-header">
+					 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						 <span class="sr-only">Toggle navigation</span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+					 </button>
+					 <a href="index.html"><img src="img/house.png" alt="" style="height:50px;width:50px;"/></a>
+				 </div>
+				 <div id="navbar" class="navbar-collapse collapse">
+					 <ul class="nav navbar-nav navbar-right">
+						 <li><a href="index.html">Home</a></li>
+						 <li class="dropdown">
+							 <a data-toggle="dropdown" class="dropdown-toggle" href="#">Admin <b class="caret"></b></a>
+							 <ul role="menu" class="dropdown-menu">
+								 <li><a class="page-scroll" href="users.html">Users</a></li>
+								 <li><a href="teams.html">Teams</a></li>
+								 <li><a href="teamaccess.html">Team Access</a></li>
+								 <li><a href="triggers.html">Triggers</a></li>
+							 </ul>
+						 </li>
+						 <li><a class="page-scroll" href="login.html">Sign Out</a></li>
+					 </ul>
+				 </div>
+			 </div>
+		 </nav>
+<!-- End Header Section -->
+
+<!-- start slider Section -->
+<section id="slider_sec">
+	<div class="container">
+		<div class="row">
+			<div class="dashboard">
+				<h1>Triggers</h1>
+			</div>
+		</div>
+		<div class="row">
+			<table class="table">
+				<thead>
+				<tr>
+					<th>Name</th>
+					<th>On/Off</th>
+					<th>Notify</th>
+					<th>Days From Trigger</th>
+					<th>Status</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>Plot Allocated</td>
+					<td><input type="checkbox" checked data-toggle="toggle"></td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="Client">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="0" style="max-width:120px">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<select class="form-control">
+								<option>Green</option>
+								<option>Amber</option>
+								<option>Red</option>
+								<option>None</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Reservation Form Sent But Not Returned</td>
+					<td><input type="checkbox" checked data-toggle="toggle"></td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="test@test.com">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="3" style="max-width:120px">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<select class="form-control">
+								<option>Green</option>
+								<option selected>Amber</option>
+								<option>Red</option>
+								<option>None</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Reservation Form Sent But Not Returned</td>
+					<td><input type="checkbox" data-toggle="toggle"></td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="test@test.com">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="6" style="max-width:120px">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<select class="form-control">
+								<option>Green</option>
+								<option selected>Amber</option>
+								<option>Red</option>
+								<option>None</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Reservation Form Sent, Consultancy Fee Not Paid</td>
+					<td><input type="checkbox" checked data-toggle="toggle"></td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="test@test.com, test2@test2.com">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="3" style="max-width:120px">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<select class="form-control">
+								<option>Green</option>
+								<option selected>Amber</option>
+								<option>Red</option>
+								<option>None</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Reservation Form Sent, Consultancy Fee Not Paid</td>
+					<td><input type="checkbox" checked data-toggle="toggle"></td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="test@test.com, test2@test2.com, Client">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="10" style="max-width:120px">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<select class="form-control">
+								<option>Green</option>
+								<option>Amber</option>
+								<option selected>Red</option>
+								<option>None</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Reservation Form Sent, Consultancy Fee Paid</td>
+					<td><input type="checkbox" checked data-toggle="toggle"></td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="test@test.com, test2@test2.com, Client">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="0" style="max-width:120px">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<select class="form-control">
+								<option>Green</option>
+								<option selected>Amber</option>
+								<option>Red</option>
+								<option>None</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Plot Allocation, No RMP Panel Mortgage Being Used</td>
+					<td><input type="checkbox" checked data-toggle="toggle"></td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="Client">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="0" style="max-width:120px">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<select class="form-control">
+								<option>Green</option>
+								<option>Amber</option>
+								<option>Red</option>
+								<option selected>None</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Plot Allocation, No RMP Panel Mortgage Being Used</td>
+					<td><input type="checkbox" checked data-toggle="toggle"></td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="Client">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="3" style="max-width:120px">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<select class="form-control">
+								<option selected>Green</option>
+								<option>Amber</option>
+								<option>Red</option>
+								<option>None</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>RMP Panel Mortgage Being Used, > 4 Months From Expected Completion Date</td>
+					<td><input type="checkbox" checked data-toggle="toggle"></td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="Client">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<input type="text" class="form-control" value="0" style="max-width:120px">
+						</div>
+					</td>
+					<td>
+						<div class="form-group">
+							<select class="form-control">
+								<option>Green</option>
+								<option>Amber</option>
+								<option>Red</option>
+								<option selected>None</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</section>
+
+<script src="js/vendor/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/scrolling-nav.js"></script>
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+        //Hide Overflow of Body on DOM Ready //
+        $("body").css("overflow", "hidden");
+	});
+</script>
+
+<script>
+    jQuery(document).ready(function( $ ) {
+    });
+</script>
+
+<script>
+	// Show Overflow of Body when Everything has Loaded
+	$(window).load(function(){
+		$("body").css("overflow", "visible");
+	});
+</script>
+
+</body>
+</html>
