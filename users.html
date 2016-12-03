@@ -68,6 +68,59 @@
 		<div class="row">
 			<div class="dashboard">
 				<h1>Users</h1>
+			</div>
+		</div>
+		<div class="row" style="padding-top: 20px">
+			<div class="dashboard">
+				<div class="panel panel-info">
+					<div class="panel-heading">Add New User</div>
+					<div class="panel-body">
+						<form action="#">
+							<div class="row">
+								<div class="col-xs-3">
+									<div class="form-group">
+										<label for="userFirstName">First Name</label>
+										<input type="text" class="form-control" id="userFirstName" placeholder="First Name">
+									</div>
+								</div>
+								<div class="col-xs-3">
+									<div class="form-group">
+										<label for="userSurname">Surname</label>
+										<input type="text" class="form-control" id="userSurname" placeholder="Surname">
+									</div>
+								</div>
+								<div class="col-xs-3">
+									<div class="form-group">
+										<label for="userEmail">Email</label>
+										<input type="text" class="form-control" id="userEmail" placeholder="Email">
+									</div>
+								</div>
+								<div class="col-xs-3">
+									<div class="form-group">
+										<label for="userTeam">Team</label>
+										<div id="userTeam" class="form-group">
+											<select class="form-control">
+												<option>Admin</option>
+												<option>Property Sourcer</option>
+												<option>Portfolio Managers</option>
+												<option>Care Team</option>
+												<option>Approver</option>
+												<option>Marketing</option>
+												<option>Accounts</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button type="submit" class="btn btn-primary btn-block">Save</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="dashboard">
+				<h2>Existing Users</h2>
 				<ul class="list-group">
 					<li class="list-group-item">Sarah Smith</li>
 					<li class="list-group-item">Roger Rogers</li>
